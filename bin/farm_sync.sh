@@ -2,6 +2,7 @@
 
 BASE_CONF_DIR=/opt/kamp/
 
+cd /tmp/ && rm -rf kampconfiguration
 cd /tmp/ && git clone https://github.com/yikiksistemci/kampconfiguration.git \
 && cd /tmp/kampconfiguration && git checkout main
 
